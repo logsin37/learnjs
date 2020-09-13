@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset='utf-8'>
-  <title>Learn JS!</title>
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css'>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css'>
-  <script crossorigin="anonymous"
-          integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src='/vendor.js'></script>
-  <script src='/app.js'></script>
-  <style type="text/css" media="all">
-      body { margin-top: 30px; }
+    <meta charset='utf-8'>
+    <title>Learn JS!</title>
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css' rel='stylesheet'>
+    <script crossorigin="anonymous"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='/vendor.js'></script>
+    <script src='/app.js'></script>
+    <style media="all" type="text/css">
+        body {
+            margin-top: 30px;
+        }
     </style>
-  </head>
-  <body>
-  <div class='container'>
-    <div class="row">
-      <div class="one-half column">
-        <h3>Learn JavaScript, one puzzle at a time.</h3>
-        <a class="button button-primary" href="">Start Now!</a>
-      </div>
-      <div class="one-half column">
-        <img src="/images/HeroImage.jpg"/>
-      </div>
+</head>
+<body>
+<div class="markup">
+    <div class='view-container container'>
+        <div class="landing-view">
+            <div class="row">
+                <div class="one-half column">
+                    <h3>Learn JavaScript, one puzzle at a time.</h3>
+                    <a class="button button-primary" href="#problem-1">Start Now!</a>
+                </div>
+                <div class="one-half column">
+                    <img src="/images/HeroImage.jpg"/>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  </body>
+</div>
+<script type="text/javascript">
+    $(window).ready(learnjs.appOnReady);
+</script>
+</body>
 </html>
